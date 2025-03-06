@@ -44,6 +44,9 @@ ul {
     border-radius: 20px ;
     font-size: .8em;
 }
+article {
+    display: block;
+}
 #menu {
   background-color: black;
   color: #ddd;
