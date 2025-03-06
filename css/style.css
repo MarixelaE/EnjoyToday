@@ -40,6 +40,9 @@ ul {
     top: 12%;
     right: 20px;
     background-color:darkorange;
+    padding: 10px;
+    border-radius: 20px ;
+    font-size: .8em;
 }
 #menu {
   background-color: black;
