@@ -4,9 +4,19 @@
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 .hero img{
- width: 70%;
- float: left;
+ width: 100%;
+ float:left;
+ 
 }
+.hero2 img{
+    width: 100%;
+    float: left;
+   }
+.hero3 img{
+    width: 80%;
+    float: left;
+ }
+
 html {
   scroll-behavior: smooth;
 }
@@ -46,7 +56,7 @@ ul {
     border-radius: 20px ;
     font-size: .8em;
 }
-article {
+.article {
     display: block;
 }
 #menu {
@@ -86,12 +96,23 @@ h2 {
   color: #f4f1f5;
   text-align: center;
 }
+h3 {
+    font-size: 2em;
+    padding-top: 1em;
+    color: #f4f1f5;
+    text-align: center;
+    position: absolute;
+   padding-left: 1em;
+  }
+  
 
-li {
+#linkc {
     font-size: 1em;
     padding-top: 1em;
     color: #f4f1f5;
     text-align: left;
+    position: absolute;
+    right: 100px;
   }
 
 #one { background-color: #c3a5cd; }
