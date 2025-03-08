@@ -57,11 +57,17 @@ article {
   width: 100%;
 }
 
-#menu a, #menu a:link, #menu a:visited, #menu a:hover, #menu a:active {
+#menu a, #menu a:link, #menu a:visited, #menu a:hover {
   color: #6d2384;
   text-decoration: none;
   display: inline-block;
   padding: 0 1em;
+}
+#menu a:active {
+    color: #908692;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 1em;
 }
 
 #menu a:hover {
@@ -74,6 +80,7 @@ article {
 
 .right {
   position: absolute;
+  color: #f4f1f5;
   right: 100px;
 }
 
