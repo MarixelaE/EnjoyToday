@@ -39,7 +39,7 @@ ul {
     width: 350px;
     top: 12%;
     right: 20px;
-    background-color:darkorange;
+    background-color:rgb(155, 14, 14);
     padding: 10px;
     border-radius: 20px ;
     font-size: .8em;
@@ -49,7 +49,7 @@ article {
 }
 #menu {
   background-color: black;
-  color: #260a5c;
+  color: #8861d6;
   line-height: 4em;
   padding: 0 1em;
   position: fixed;
@@ -57,17 +57,11 @@ article {
   width: 100%;
 }
 
-#menu a, #menu a:link, #menu a:visited, #menu a:hover {
-  color: #6d2384;
+#menu a, #menu a:link, #menu a:visited, #menu a:hover, #menu a:active {
+  color: #c3a5cd;
   text-decoration: none;
   display: inline-block;
   padding: 0 1em;
-}
-#menu a:active {
-    color: #908692;
-    text-decoration: none;
-    display: inline-block;
-    padding: 0 1em;
 }
 
 #menu a:hover {
@@ -87,13 +81,21 @@ article {
 h2 {
   font-size: 3em;
   padding-top: 1em;
+  color: #f4f1f5;
   text-align: center;
 }
+
+li {
+    font-size: 2em;
+    padding-top: 1em;
+    color: #f4f1f5;
+    text-align: left;
+  }
 
 #one { background-color: #c3a5cd; }
 #two { background-color: #8a5d95; }
 #three { background-color: #632b7f; }
-#four { background-color: #3b0449; }
+#four { background-color: #410e4e; }
 
 
 
